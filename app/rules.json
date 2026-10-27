@@ -1,0 +1,76 @@
+
+[
+  {
+    "intent": "fee",
+    "keywords": [
+      "fee",
+      "fees",
+      "tuition",
+      "semester fee",
+      "fee structure",
+      "payment",
+      "challan",
+      "scholarship"
+    ],
+    "reply": "For information about tuition fees, semester fees, payment methods, and fee challans, please visit the official University of Sargodha website at https://su.edu.pk. Fee structures may vary depending on your degree programme. Please check the latest official fee information or contact the relevant university office."
+  },
+  {
+    "intent": "admission",
+    "keywords": [
+      "admission",
+      "admissions",
+      "apply",
+      "application",
+      "eligibility",
+      "enrollment",
+      "enrolment",
+      "merit",
+      "entry test"
+    ],
+    "reply": "The University of Sargodha offers admissions to various undergraduate and postgraduate programmes. For admission announcements, eligibility criteria, application procedures, and merit lists, visit https://su.edu.pk. Please check the official admission notices for current dates and requirements."
+  },
+  {
+    "intent": "timing",
+    "keywords": [
+      "timing",
+      "timings",
+      "time",
+      "hours",
+      "schedule",
+      "class",
+      "classes",
+      "opening",
+      "closing",
+      "office hours"
+    ],
+    "reply": "University class schedules and office timings may differ by department and academic session. Please contact your department or check the latest official University of Sargodha announcements at https://su.edu.pk for accurate timings."
+  },
+  {
+    "intent": "library",
+    "keywords": [
+      "library",
+      "books",
+      "borrow",
+      "reading",
+      "study room",
+      "research books",
+      "librarian"
+    ],
+    "reply": "The University of Sargodha provides library facilities for academic study and research. For information about library registration, borrowing books, available resources, and operating hours, please contact the university library or check the official website at https://su.edu.pk."
+  },
+  {
+    "intent": "hostel",
+    "keywords": [
+      "hostel",
+      "hostels",
+      "accommodation",
+      "residence",
+      "room",
+      "rooms",
+      "mess",
+      "boarding",
+      "dormitory"
+    ],
+    "reply": "For information about University of Sargodha hostel accommodation, room allocation, hostel fees, and availability, please contact the university hostel administration. You can also check https://su.edu.pk for official hostel-related information. Accommodation is subject to university rules and availability."
+  }
+]
