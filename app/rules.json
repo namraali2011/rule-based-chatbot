@@ -1,76 +1,168 @@
 
 [
   {
-    "intent": "fee",
-    "keywords": [
-      "fee",
-      "fees",
-      "tuition",
-      "semester fee",
-      "fee structure",
-      "payment",
-      "challan",
-      "scholarship"
-    ],
-    "reply": "For information about tuition fees, semester fees, payment methods, and fee challans, please visit the official University of Sargodha website at https://su.edu.pk. Fee structures may vary depending on your degree programme. Please check the latest official fee information or contact the relevant university office."
+    "intent": "hostel_fee",
+    "keywords": ["hostel fee", "hostel fees", "hostel charges", "hostel rent", "accommodation fee", "mess charges", "hostel dues"],
+    "reply": "Hostel charges are separate from academic tuition fees and may vary by accommodation type and university policy. Check the current hostel fee schedule with UOS Hall Council before making a payment. Hostel information: https://su.edu.pk/office/hall-council/hostels"
   },
   {
-    "intent": "admission",
-    "keywords": [
-      "admission",
-      "admissions",
-      "apply",
-      "application",
-      "eligibility",
-      "enrollment",
-      "enrolment",
-      "merit",
-      "entry test"
-    ],
-    "reply": "The University of Sargodha offers admissions to various undergraduate and postgraduate programmes. For admission announcements, eligibility criteria, application procedures, and merit lists, visit https://su.edu.pk. Please check the official admission notices for current dates and requirements."
-  },
-  {
-    "intent": "timing",
-    "keywords": [
-      "timing",
-      "timings",
-      "time",
-      "hours",
-      "schedule",
-      "class",
-      "classes",
-      "opening",
-      "closing",
-      "office hours"
-    ],
-    "reply": "University class schedules and office timings may differ by department and academic session. Please contact your department or check the latest official University of Sargodha announcements at https://su.edu.pk for accurate timings."
-  },
-  {
-    "intent": "library",
-    "keywords": [
-      "library",
-      "books",
-      "borrow",
-      "reading",
-      "study room",
-      "research books",
-      "librarian"
-    ],
-    "reply": "The University of Sargodha provides library facilities for academic study and research. For information about library registration, borrowing books, available resources, and operating hours, please contact the university library or check the official website at https://su.edu.pk."
+    "intent": "hostel_application",
+    "keywords": ["apply for hostel", "hostel admission", "hostel application", "hostel allotment", "hostel registration", "get hostel room"],
+    "reply": "To apply for UOS hostel accommodation, obtain the hostel admission form, complete it, and submit it according to Hall Council instructions, including the required departmental recommendation. Hostel allotment is merit-based and subject to availability. Official rules: https://su.edu.pk/office/hall-council/rules-regulations"
   },
   {
     "intent": "hostel",
-    "keywords": [
-      "hostel",
-      "hostels",
-      "accommodation",
-      "residence",
-      "room",
-      "rooms",
-      "mess",
-      "boarding",
-      "dormitory"
-    ],
-    "reply": "For information about University of Sargodha hostel accommodation, room allocation, hostel fees, and availability, please contact the university hostel administration. You can also check https://su.edu.pk for official hostel-related information. Accommodation is subject to university rules and availability."
+    "keywords": ["hostel", "hostels", "accommodation", "dormitory", "boarding", "residence", "girls hostel", "boys hostel"],
+    "reply": "The University of Sargodha provides hostel accommodation for eligible students. Both male and female hostel facilities are listed by UOS, but room availability is not guaranteed. For hostel locations, applications and regulations, visit https://su.edu.pk/office/hall-council/hostels"
+  },
+  {
+    "intent": "admission_deadline",
+    "keywords": ["admission deadline", "admission last date", "last date to apply", "application deadline", "admissions open", "admission dates", "when admissions start"],
+    "reply": "Admission opening dates and deadlines depend on the academic session and programme. Check the latest Important Dates and admission notifications on https://admissions.su.edu.pk/. Always submit your application before the officially announced deadline."
+  },
+  {
+    "intent": "admission_eligibility",
+    "keywords": ["admission eligibility", "eligibility criteria", "minimum marks", "eligible for admission", "admission requirements", "qualification required", "required percentage"],
+    "reply": "Admission eligibility depends on your selected programme and previous qualifications. Some programmes may also have additional requirements. Find your programme's eligibility details at https://admissions.su.edu.pk/programs and read the official admission regulations at https://su.edu.pk/admission-regulations"
+  },
+  {
+    "intent": "admission_documents",
+    "keywords": ["admission documents", "documents required", "required documents", "documents for admission", "cnic for admission", "upload documents"],
+    "reply": "Admission applications commonly require academic records, identification and other programme-specific documents. The exact checklist can vary by admission category. Read your current application instructions on https://admissions.su.edu.pk/ and prepare clear copies of all requested documents."
+  },
+  {
+    "intent": "merit_list",
+    "keywords": ["merit list", "merit lists", "first merit", "second merit", "third merit", "selected candidates", "selection list", "admission merit"],
+    "reply": "UOS publishes merit information through its official admission system. Check the latest merit lists and selection announcements at https://admissions.su.edu.pk/. If selected, follow the specified document verification and fee payment instructions before the deadline."
+  },
+  {
+    "intent": "admission_status",
+    "keywords": ["application status", "admission status", "check my application", "track application", "application accepted", "application rejected", "admission confirmation"],
+    "reply": "To check the progress of your admission application, visit the official UOS admission portal at https://admissions.su.edu.pk/ and use the available applicant services. If you experience a problem, contact the admission office with your application details."
+  },
+  {
+    "intent": "admission",
+    "keywords": ["admission", "admissions", "apply online", "apply for university", "enrollment", "enrolment", "admission form", "how to apply"],
+    "reply": "To apply for admission at the University of Sargodha: 1) Visit https://admissions.su.edu.pk/. 2) Review available programmes and eligibility requirements. 3) Follow the online application instructions. 4) Submit the required information and documents. 5) Complete any required fee payment and monitor admission announcements."
+  },
+  {
+    "intent": "degree_programmes",
+    "keywords": ["degree programs", "degree programmes", "available programs", "available courses", "bs programs", "ms programs", "mphil programs", "phd programs", "what can i study", "offered degrees"],
+    "reply": "UOS offers a range of undergraduate and postgraduate degree programmes across different disciplines. You can explore programme names and eligibility requirements through the official programme finder at https://admissions.su.edu.pk/programs"
+  },
+  {
+    "intent": "fee_challan",
+    "keywords": ["fee challan", "challan form", "download challan", "print challan", "online challan", "fee voucher", "payment voucher"],
+    "reply": "For fee challans or payment vouchers, use the official UOS website or the relevant admission/student system. Make sure your personal details and payment amount are correct before depositing the fee. Visit https://su.edu.pk/ and look for the Online Challan option."
+  },
+  {
+    "intent": "fee_payment",
+    "keywords": ["pay fee", "fee payment", "deposit fee", "pay online", "payment method", "pay semester fee", "fee deposit", "bank payment"],
+    "reply": "Follow the payment instructions printed on your official UOS fee challan or displayed in your admission/student portal. Payment channels and deadlines may vary. Keep the receipt or payment confirmation for your records. Website: https://su.edu.pk/"
+  },
+  {
+    "intent": "fee_refund",
+    "keywords": ["fee refund", "refund policy", "refund my fee", "return admission fee", "cancel admission refund"],
+    "reply": "UOS publishes admission fee refund rules and timelines in its official FAQs. The refundable amount depends on the applicable policy and when the request is made. Review the official details at https://su.edu.pk/frequently-asked-questions before submitting a refund request."
+  },
+  {
+    "intent": "fee_structure",
+    "keywords": ["fee structure", "semester fee", "tuition fee", "university fee", "program fee", "bs fee", "ms fee", "mphil fee", "phd fee"],
+    "reply": "UOS tuition fees vary by degree programme, semester and admission category, such as Regular or Self-Support. For accurate figures, visit the official fee structure information at https://su.edu.pk/home/Prospectus/FeeStructure. Always check the fee schedule for your specific admission session."
+  },
+  {
+    "intent": "scholarship",
+    "keywords": ["scholarship", "scholarships", "financial aid", "need based", "merit scholarship", "financial assistance", "fee concession", "bursary"],
+    "reply": "UOS provides information on scholarships and financial assistance schemes. Eligibility, documents and deadlines depend on the individual scheme. Review the current opportunities and application requirements at https://su.edu.pk/scholarships. You may also contact the university's relevant financial aid office."
+  },
+  {
+    "intent": "library_membership",
+    "keywords": ["library card", "library membership", "library registration", "borrow books", "issue books", "return books", "library fine"],
+    "reply": "For library membership, borrowing, returns and fines, follow the rules of the UOS library. Requirements and loan periods can differ by membership category. Contact the library desk or visit the university website at https://su.edu.pk/"
+  },
+  {
+    "intent": "digital_library",
+    "keywords": ["digital library", "e library", "online books", "research articles", "research journals", "opac", "hec digital library", "electronic resources"],
+    "reply": "UOS provides access to library resources, including electronic research materials and catalogue services. Visit https://su.edu.pk/ and locate the HEC Digital Library or Online Public Access Catalogue (OPAC) links. Some resources may require university-authorised access."
+  },
+  {
+    "intent": "library",
+    "keywords": ["library", "libraries", "librarian", "reading room", "study books", "book collection"],
+    "reply": "The University of Sargodha has library facilities supporting academic study and research. Students can find books, reference materials and digital resources. For availability, timings and membership details, consult the library through https://su.edu.pk/students"
+  },
+  {
+    "intent": "exam_date_sheet",
+    "keywords": ["date sheet", "datesheet", "exam schedule", "exam timetable", "exam dates", "examination date", "paper schedule"],
+    "reply": "Examination dates and date sheets vary by programme and examination session. Check the latest official university notices, examination announcements or your department's timetable. University website: https://su.edu.pk/"
+  },
+  {
+    "intent": "roll_number_slip",
+    "keywords": ["roll number slip", "roll no slip", "admit card", "exam slip", "download roll number", "rollnumber"],
+    "reply": "Roll number slips and examination instructions are released for the relevant examination category. Check current examination notifications on https://su.edu.pk/ or contact the examination office or your department for assistance."
+  },
+  {
+    "intent": "exam_result",
+    "keywords": ["exam result", "semester result", "check result", "my result", "marks result", "grade result", "result announcement"],
+    "reply": "For examination results, use the official result service or the instructions provided by your department or examination office. Make sure you select the correct examination session and category. Start from https://su.edu.pk/"
+  },
+  {
+    "intent": "transcript_degree",
+    "keywords": ["transcript", "degree certificate", "degree verification", "degree attestation", "academic transcript", "provisional certificate", "duplicate degree", "duplicate transcript"],
+    "reply": "For transcripts, degree certificates, verification or duplicate documents, contact the relevant UOS examination or degree issuing office. Ask for the current application form, fee and required identification documents. Official website: https://su.edu.pk/"
+  },
+  {
+    "intent": "examinations",
+    "keywords": ["examination", "examinations", "semester exams", "midterm", "mid term", "final exam", "rechecking", "reappear", "supplementary exam"],
+    "reply": "UOS examination arrangements vary by department, degree and examination category. For exam rules, rechecking, supplementary examinations or assessment schedules, consult your department and the official university notices at https://su.edu.pk/"
+  },
+  {
+    "intent": "class_timetable",
+    "keywords": ["class timetable", "class schedule", "lecture schedule", "lecture timings", "class timings", "semester timetable", "timetable"],
+    "reply": "Class timetables are usually programme- and department-specific. Contact your department, class coordinator or official departmental communication channel to obtain your current timetable. University website: https://su.edu.pk/"
+  },
+  {
+    "intent": "academic_calendar",
+    "keywords": ["academic calendar", "semester start", "semester end", "semester dates", "winter vacation", "summer vacation", "university holidays", "semester schedule"],
+    "reply": "Academic calendars, semester start dates and holidays may change between academic sessions. Please check the latest official academic notices or your department's announcements at https://su.edu.pk/"
+  },
+  {
+    "intent": "timing",
+    "keywords": ["timing", "timings", "office hours", "university hours", "opening hours", "closing time", "working hours"],
+    "reply": "Office hours and departmental schedules may differ across UOS facilities and academic sessions. Confirm the schedule with the relevant department or university office. General website: https://su.edu.pk/"
+  },
+  {
+    "intent": "transport",
+    "keywords": ["transport", "university bus", "bus route", "bus timing", "bus card", "bus pass", "transport fee", "shuttle"],
+    "reply": "For UOS transport services, route information, bus cards, fees and schedules, consult the university's current transport announcements or transport office. You can find university information and available forms through https://su.edu.pk/"
+  },
+  {
+    "intent": "sports",
+    "keywords": ["sports", "gym", "cricket", "football", "athletics", "sports facility", "sports ground", "sports trials"],
+    "reply": "UOS provides sports and co-curricular opportunities for students. For participation, facilities, trials and activity schedules, contact the relevant sports office or check the student information section at https://su.edu.pk/students"
+  },
+  {
+    "intent": "contact",
+    "keywords": ["contact", "phone number", "helpline", "university address", "where is university", "university location", "contact office"],
+    "reply": "University of Sargodha, University Road, Sargodha, Punjab, Pakistan 40100. Main contact number: 048 111 867 111. You can find official university contact information at https://su.edu.pk/contact"
+  },
+  {
+    "intent": "complaint",
+    "keywords": ["complaint", "complain", "report problem", "student grievance", "issue with university", "submit complaint", "suggestion"],
+    "reply": "For complaints or student grievances, contact the department or university office responsible for your issue. If the matter concerns hostel administration, refer to Hall Council regulations. Start with the official contact directory at https://su.edu.pk/contact"
+  },
+  {
+    "intent": "university_information",
+    "keywords": ["about uos", "about university", "university of sargodha", "uos information", "su university", "official website"],
+    "reply": "The University of Sargodha is a public-sector university in Sargodha, Punjab, Pakistan. It offers undergraduate and postgraduate education across multiple academic disciplines. You can learn more about its departments, programmes and services at https://su.edu.pk/"
+  },
+  {
+    "intent": "thanks",
+    "keywords": ["thank you", "thanks", "thankyou", "jazakallah", "shukriya"],
+    "reply": "You're very welcome! 😊 I'm glad I could help. You can ask another question about admissions, fees, scholarships, examinations, hostels or other university services."
+  },
+  {
+    "intent": "greeting",
+    "keywords": ["hello", "hi", "hey", "assalam o alaikum", "salam", "aoa", "good morning", "good evening"],
+    "reply": "Wa Alaikum Assalam! 👋 Welcome to UOS Helpdesk Bot. I can help you with admissions, fee payments, scholarships, examinations, degree programmes, libraries, hostel facilities and other common UOS questions. What would you like to know?"
   }
 ]
